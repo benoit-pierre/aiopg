@@ -12,6 +12,7 @@ python:
 - "nightly" # currently points to 3.7-dev
 
 install:
+- pip install -U setuptools
 - python setup.py install
 - pip install -Ur requirements.txt
 - pip install codecov
